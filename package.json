@@ -1,27 +1,28 @@
 {
-    "name": "claude-default-dark",
-    "displayName": "Claude Dark",
-    "description": "Default Dark+ with Claude colors",
-    "version": "0.0.1",
-    "publisher": "MikiTwenty",
-    "engines": {
-        "vscode": "^1.85.0"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MikiTwenty/claude-default-dark-vscode-theme.git"
-    },
+    "name": "claude-dark-plus-theme",
+    "displayName": "%displayName%",
+    "description": "%description%",
     "categories": [
         "Themes"
     ],
+    "version": "0.0.1",
+    "publisher": "MikiTwenty",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
     "contributes": {
         "themes": [
             {
-                "label": "Claude Dark",
+                "id": "claude-dark-plus",
+                "label": "%claudeDarkPlusLabel%",
                 "uiTheme": "vs-dark",
-                "path": "./themes/claude-dark-color-theme.json"
+                "path": "./themes/claude_dark_plus.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MikiTwenty/claude-vscode-theme.git"
     }
 }
