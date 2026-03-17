@@ -14,7 +14,7 @@
     "contributes": {
         "themes": [
             {
-                "id": "claude-dark-plus",
+                "id": "Claude Dark Plus",
                 "label": "%claudeDarkPlusLabel%",
                 "uiTheme": "vs-dark",
                 "path": "./themes/claude_dark_plus.json"
