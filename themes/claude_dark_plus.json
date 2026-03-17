@@ -1,6 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Claude Dark+",
+	"include": "./dark_plus.json",
 	"colors": {
 		"editor.background": "#1E1E1E",
 		"editor.foreground": "#D4D4D4",
@@ -275,10 +276,5 @@
 			}
 		}
 	],
-	"semanticTokenColors": {
-		"newOperator":"#C586C0",
-		"stringLiteral":"#ce9178",
-		"customLiteral": "#DCDCAA",
-		"numberLiteral": "#b5cea8",
-	}
+	"semanticHighlighting": true
 }
