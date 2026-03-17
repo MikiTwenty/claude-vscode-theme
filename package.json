@@ -1,0 +1,27 @@
+{
+    "name": "claude-default-dark",
+    "displayName": "Claude Dark",
+    "description": "Default Dark+ with Claude colors",
+    "version": "0.0.1",
+    "publisher": "MikiTwenty",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MikiTwenty/claude-default-dark-vscode-theme.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Claude Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/claude-dark-color-theme.json"
+            }
+        ]
+    }
+}
